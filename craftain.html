@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet">
     <meta charset="utf-8"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 
     <title></title>
 
@@ -16,7 +20,7 @@
         font-family: 'Roboto Mono', monospace;
     }
 /*Pagina home alta */
-     .nav-item{
+    .nav-item{
         margin-right: 100px;
 
     }
@@ -29,9 +33,10 @@
         text-align: right; }
     
 
-    #navbar {
-        padding-top: 20px;
+    .navbar {
+        padding-top: 10px;
         position: fixed;
+        background-color: none;
     }
 
 
@@ -45,7 +50,7 @@
         height: 100%;
         top:0;
         left: 0;
-        padding-bottom: 100px;
+        
     }
 
     #boxcourse {
@@ -60,7 +65,7 @@
     }
 
     .content h1 {
-        margin-top: 25%;
+        margin-top: 15%;
         font-size: 2.3em;
         line-height: 2em;
 
@@ -74,15 +79,16 @@
         width: 100%;
     }
 
-    .button {
+    .registered{
         margin-top: 50px;
-        padding-bottom: 150px;
+        padding-bottom: 180px;
         
     }
     
     .btn-outline-secondary { 
         color: #fff;
-        font-size: 1.5em;
+        font-size: 0.9em;
+        
         
 
     }
@@ -100,19 +106,17 @@
     }
 
     #boxcourse h1 {
-        padding-top: 100px;
-        padding-bottom: 100px;
+      ;
+        padding-top: 20px;
+        padding-bottom: 90px;
         color: #fff
     }
 
     .box {
 
         padding-bottom: 30px;
-        
-        padding-left: 70px;
-        
-
-    }
+     
+   }
     
     .card {
         min-height: 300px;
@@ -122,33 +126,58 @@
     .navbar a {
         color: #fff
     }
-   
+
+    .nav-item  a {
+      color: #fff;
+
+    }
+
+    .registered {
+        color:#fff;
+    }
+
+    .bottone {
+        margin-top: 30px;
+    }
+
+    .card-img-top {
+        max-height: 150px;
+    }
+    
+    .btn-light  {
+            
+        padding: 6px 70px;
+        background-color: #150642
+    }
+    .buy {
+        color: aqua
+    }
    
     </style>
+
 </head>
 <body>
      <section>
-        <div class="container">
-         <nav class="navbar navbar-expand-lg">
-          
-          <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item craftain">
-                <a class="nav-link" href="#">Craftain<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item courses">
-                <a class="nav-link" href="#">Courses</a>
-              </li>
-              <li class="nav-item pricing">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-            </ul>
-            <span class="navbar-text">
-              Navbar text with an inline element
-            </span>
-          </div>
-        </nav>  
-       </div>
+        
+        
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Craftain</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="material-icons" style="color: #fff;">menu</i></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Courses <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Get Started</a>
+            </li>
+            
+        </div>
+      </nav> 
+       
         
         
     </section> 
@@ -165,38 +194,56 @@
             <h3>Online courses created by blockchain creators</h3>
             
         </div>
-        <div class="button text-center">
-        <button type="button" class="btn btn-outline-secondary">Get started</button>
-        </div>
+
+        <form class="registered text-center">
+           <div class="form-group-row">
+                <label class="col-3">Email</label>
+                <div class="col-12">
+                    <input type="text">
+                </div>
+                <button class="text-center bottone" type="button" class="btn btn-outline-secondary">Registered</button>
+
+            </div>    
+
+
+        </form>
+
     </section>
     <section id="boxcourse" class="text-center">
         <h1>Upcoming courses</h1>
-       <div class="row justify-content-md-center">
-               <div class="col-md-3 text-center box">
-                   <div class="card" style="width: 18rem;">
+        <div class="row justify-content-md-center justify-content-xs-center">
+               <div class="col-md-3 col-12  text-center box">
+                   <div class="card">
                        <img class="card-img-top" src="blockchain1.png" alt="Card image cap">
                        <div class="card-body">
-                           <p class="card-text">Blockchain 101.</p>
-                       </div>
+                           <h4 class="card-title">Blockchain 101.</h4>
+                           <p class="card-text">Now that there is the Tec-9, a crappy spray gun from South Miami.  </p>
+                           <a href="#" class="btn btn-light buy">Buy</a>
+                        </div>
                    </div>
                </div>
-               <div class="col-md-3 text-center box">
-                   <div class="card" style="width: 18rem;">
+               <div class="col-md-3 col-12  text-center box">
+                   <div class="card">
                        <img class="card-img-top" src="bitcoin.png" alt="Card image cap">
                        <div class="card-body">
-                           <p class="card-text">Bitcoin.</p>
+                           <h4 class="card-title">Bitcoin.</h4>
+                           <p class="card-text">Now that there is the Tec-9, a crappy spray gun from South Miami.  </p>
+                           <a href="#" class="btn btn-light buy">Buy</a>
                        </div>
                    </div>
                </div>
-               <div class="col-md-3 text-center box">
-                   <div class="card" style="width: 18rem;">
+               <div class="col-md-3 col-12  text-center box">
+                   <div class="card">
                        <img class="card-img-top" src="etherum.png" alt="Card image cap">
                        <div class="card-body">
-                           <p class="card-text">Ethereum Technology.</p>
+                           <h4 class="card-title">Ethereum.</h4>
+                           <p class="card-text">Now that there is the Tec-9, a crappy spray gun from South Miami.  </p>
+                           <a href="#" class="btn btn-light buy">Buy</a>
+                           
                        </div>
                    </div>
                </div>
-           </div>    
+          </div>    
                   
     </section>
         
