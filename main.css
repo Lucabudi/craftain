@@ -1,21 +1,155 @@
-﻿body {
-    margin: 0;
-    padding: 0;
-    /*  Background fallback in case of IE8 & down, or in case video doens't load, such as with slower connections  */
-    background: #333;
-    background-attachment: fixed;
-    background-size: cover;
-}
 
-/* The only rule that matters */
-#video-background {
-    /*  making the video fullscreen  */
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-}
+    body{
+        background: #0f0c29;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        
+    }    
+    section {
+        padding-top: 150px;
+    }
+/*Pagina home alta */
+    
+    .about { 
+
+        text-align: right; }
+
+    .course h1{ 
+       color:  #5700ff;
+       font-size: 25px;
+    
+    }
+
+    .content { 
+        margin-top: 5%;
+        color: #fff;
+        text-align: center;
+    }
+
+    .content h1 {
+        
+        font-size: 1.3em;
+        line-height: 2em;
+
+    }
+
+
+    ._field-wrapper {
+        margin-bottom: 20px;
+    }
+
+   
+
+    #coursecoming ul  { 
+        margin-left: 10px;
+        list-style-type: none;
+        text-align: left;
+        
+
+    }
+
+    #coursecoming a {
+
+        color: #fff;
+    }
+        
+    #coursecoming .card {
+        margin-left: 0px;
+        border: none;
+        min-width: 300px;
+        min-height: 180px;
+        box-shadow: 2px 3px 5px #ffffff45;
+    }
+
+    .infocourse {
+        color: #fff
+        text-align: left;
+    }
+
+    .infocourse2 {
+        color: #fff
+        text-align: left;
+    }
+
+    .card-header1 {
+        background: #ED4264;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #FFEDBC, #ED4264);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+
+
+    .card-header2 {
+        background: #C33764;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+
+    }
+
+    .card-header3 {
+        background: #00F260;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+    
+
+    .card-img-top{
+        width: 10%;
+        max-height: 100px;
+    }
+
+    .card-body{
+        background: #141E30;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color: #fff;
+    }
+
+   
+
+    .navbar {
+        color: #fff;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    } 
+    .nav-item {       
+        margin-right: 20px;
+    }
+
+   #price .price { 
+       background-color: #c6f5e0;
+    
+   } 
+
+    
+
+    /*corsi*/
+
+    .box {
+
+        padding-bottom: 30px;
+     
+   }
+    
+    
+
+    .navbar a {
+        color: #fff
+    }
+
+    .nav-item  a {
+      color: #fff;
+
+    }
+
+    .registered {
+        color:#fff;
+    }
+    
+   
+   
