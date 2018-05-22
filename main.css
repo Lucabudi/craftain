@@ -1,150 +1,105 @@
 
-   body{
-        font-family: 'Crimson Text', serif;
-        background: #0f0c29;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+body{
 
-        
-    }    
-    section {
-        padding-top: 150px;
-        padding-bottom: 50px;
-
-        /* Learn how to build b: */
-
-/*Pagina home alta */
+    font-family: 'Inconsolata', monospace;
+    background: rgba(183,216,203,0.30);
     
-    .about { 
 
-        text-align: right; }
+}   
 
-    .course h1{ 
-       color:  #5700ff;
-       font-size: 25px;
+section{
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+/* lOGO IN ALTO */
+
+.logo a {
+
+    font-size: 25px;
     
-    }
+}
 
-    .content { 
-        margin-top: 5%;
-        color: #fff;
-        text-align: center;
-    }
-
-    .content h1 {
-        
-        font-size: 1.3em;
-        line-height: 2em;
-
-    }
+/*area tools*/
 
 
-    ._field-wrapper {
-        margin-bottom: 20px;
-    }
+.tools {
+    
+    opacity: 0.71;
+    background-color: #c4fde7;
+       
+}
 
+.tools h2 {
+
+    padding-top: 40px;
+    color: #000;
    
+}
 
-    #coursecoming ul  { 
-        margin-left: 10px;
-        list-style-type: none;
-        text-align: left;
-        
-
-    }
-
-    #coursecoming a {
-
-        color: #fff;
-    }
-        
-    #coursecoming .card {
-        margin-left: 0px;
-        border: none;
-        min-width: 300px;
-        min-height: 180px;
-        box-shadow: 2px 3px 5px #ffffff45;
-    }
-
-    .infocourse {
-        color: #fff
-        text-align: left;
-    }
-
-    .infocourse2 {
-        color: #fff
-        text-align: left;
-    }
-
-    .card-header1 {
-        background: #ED4264;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #FFEDBC, #ED4264);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    }
+.tools img {
+    filter: brightness(20%);
+}
 
 
-    .card-header2 {
-        background: #C33764;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        
+/* Descrizione craftain*/
 
-    }
 
-    .card-header3 {
-        background: #00F260;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+#craftainvision .vision {
+    padding-top: 100px;
+    margin-top: 100px;
 
-    }
+}
+
+.corsi{
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+/* form email*/
+
+
+.card {
+    border-radius: 11px;
+    min-height: 300px;
+    background: linear-gradient(160deg,#02ccba,#aa7ecd);
+
+}
+
+.card h3 {
+    margin-top:  30px;
     
+}
 
-    .card-img-top{
-        width: 10%;
-        max-height: 100px;
-    }
-
-    .card-body{
-        background: #141E30;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        color: #fff;
-    }
-
-   
-
-    .navbar {
-        color: #fff;
-        overflow: hidden;
-        position: fixed;
-        top: 0;
-        width: 100%;
-    } 
-    .nav-item {       
-        margin-right: 20px;
-    }
-
-   #price .price { 
-       background-color: #c6f5e0;
+._form-label{
+    margin-top: 50px;
+    color: #000;
     
-   } 
+}
+/*form email in fondo alla pagina */
+
+#email {
+    background: linear-gradient(160deg,#02ccba,#aa7ecd);
+}
 
 
 
 
-    .navbar a {
-        color: #fff
-    }
+._field-wrapper{
+    border-color:  1px solid #000;
+}
 
-    .nav-item  a {
-      color: #fff;
+.btn{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
-    }
+.formemail{
+    color: #000;
+    border: 1px solid #979797;
+    border-radius: 21px;
 
-    .registered {
-        color:#fff;
-    }
-    
-   
-   
+}  
+
+._submit {
+    padding: 10px 10px;
+}
