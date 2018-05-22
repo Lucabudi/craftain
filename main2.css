@@ -1,0 +1,93 @@
+body{
+
+    font-family: 'Inconsolata', monospace;
+    background: rgba(183,216,203,0.30);
+    
+
+}   
+
+section{
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+
+.logo a {
+
+    font-size: 25px;
+    
+}
+
+.tools {
+    
+    opacity: 0.71;
+    background-color: #c4fde7;
+       
+}
+
+.tools img {
+    filter: brightness(20%);
+}
+
+#craftainvision .vision {
+    padding-top: 100px;
+    margin-top: 100px;
+
+}
+
+.tools h2 {
+
+    padding-top: 40px;
+    color: #000;
+   
+}
+
+.corsi{
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+
+
+.card {
+    border-radius: 11px;
+    min-height: 300px;
+    background: linear-gradient(160deg,#02ccba,#aa7ecd);
+
+}
+
+.card h3 {
+    margin-top:  30px;
+    
+}
+
+#email {
+    background: linear-gradient(160deg,#02ccba,#aa7ecd);
+}
+
+
+._form-label{
+    margin-top: 50px;
+    color: #000;
+    
+}
+
+._field-wrapper{
+    border-color:  1px solid #000;
+}
+
+.btn{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.formemail{
+    color: #000;
+    border: 1px solid #979797;
+    border-radius: 21px;
+
+}  
+
+._submit {
+    padding: 10px 10px;
+}
