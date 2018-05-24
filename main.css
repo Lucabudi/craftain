@@ -4,11 +4,12 @@ body{
     font-family: 'Inconsolata', monospace;
     background:#fff;
     
+    
 
 }   
 
 section{
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 50px;
 }
 
@@ -16,6 +17,7 @@ section{
 
 .logo {
     padding-top: 20px;
+   
 }
 
 .logo a {
@@ -41,13 +43,45 @@ section{
    
 }
 
-.tools img {
-    max-width: 100px;
-    filter: grayscale(100%);
-    style="width: 65%;
 
+.tools img {
+    width: 60%;
+    max-width: 150px;
+    max-height: 80px;
+    filter: grayscale(100%);
 }
 
+.flex-item {
+    flex-grow: 2;
+    box-sizing: content-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    
+}
+
+
+#craftainvision .row {
+    margin-bottom: 5em;
+}
+
+#craftainvision h2 {
+    margin-bottom: 80px;
+}
+
+
+
+ 
+
+#craftainvision h3 {
+    text-align: left;
+}
 
 /* Descrizione craftain*/
 
@@ -62,15 +96,9 @@ section{
     margin-top: 30px;
     padding-bottom: 20px;
 }
-/* form email*/
-
-
 #formemail .card {
-    
-   
-    
     background: -webkit-linear-gradient(160deg, rgb(4, 12, 60) 0%, rgba(4, 13, 113, 0.22) 50%, rgba(0, 0, 0, 0.65) 100%), url(sfondocorsi3.jpg) no-repeat;
-    background-size: 100%
+    background-size: cover;
 }
 
 
@@ -109,6 +137,7 @@ section{
     background-color: #edededab;
     box-sizing: content-box;
     color: #00d1b2;
+    padding-bottom: 50px;
 
 }
 
@@ -121,10 +150,16 @@ section{
     width: 100%;
     background-color: #00d1b2;
     border: none;
+    box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.4);
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+    text-decoration: none;
 }    
 
 .btn:hover {
         background-color:#06c1a5;
+        box-shadow: 0px 37px 20px -15px rgba(0,0,0,0.2);
+        transform: translate(0px, -10px);
     } 
 
 
@@ -141,9 +176,14 @@ section{
     font-size: 1.6em;
 }
 
+#craftainvision {
+    margin: 0px 20px;
+}
+
 
 #craftainvision p {
     text-align: justify;
+    
 }
 
 
@@ -161,7 +201,7 @@ section{
         font-size: 2em;
     }
 
-
-    }
     
+
+
 
