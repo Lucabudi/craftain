@@ -1,93 +1,372 @@
 body{
 
     font-family: 'Inconsolata', monospace;
-    background: rgba(183,216,203,0.30);
+    background: #fff;
     
-
 }   
 
-section{
-    margin-top: 40px;
-    margin-bottom: 100px;
+.logo {
+    padding-top: 50px;
 }
 
+.check_mark {
+    width: 80px;
+    height: 130px;
+    margin: 0 auto;
+  }
+  
+  
+  .sa-icon {
+    width: 80px;
+    height: 80px;
+    border: 4px solid gray;
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
+    border-radius: 50%;
+    margin: 20px auto;
+    padding: 0;
+    position: relative;
+    box-sizing: content-box;
+  }
+  
+  .sa-icon.sa-success {
+    border-color: #00d1b2;
+  }
+  
+  .sa-icon.sa-success::before, .sa-icon.sa-success::after {
+    content: '';
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
+    border-radius: 50%;
+    position: absolute;
+    width: 60px;
+    height: 120px;
+    background: white;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  .sa-icon.sa-success::before {
+    -webkit-border-radius: 120px 0 0 120px;
+    border-radius: 120px 0 0 120px;
+    top: -7px;
+    left: -33px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 60px 60px;
+    transform-origin: 60px 60px;
+  }
+  
+  .sa-icon.sa-success::after {
+    -webkit-border-radius: 0 120px 120px 0;
+    border-radius: 0 120px 120px 0;
+    top: -11px;
+    left: 30px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 0px 60px;
+    transform-origin: 0px 60px;
+  }
+  
+  .sa-icon.sa-success .sa-placeholder {
+    width: 80px;
+    height: 80px;
+    border:  4px solid #00d1b2;
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
+    border-radius: 50%;
+    box-sizing: content-box;
+    position: absolute;
+    left: -4px;
+    top: -4px;
+    z-index: 2;
+  }
+  
+  .sa-icon.sa-success .sa-fix {
+    width: 5px;
+    height: 90px;
+    background-color: white;
+    position: absolute;
+    left: 28px;
+    top: 8px;
+    z-index: 1;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  
+  .sa-icon.sa-success.animate::after {
+    -webkit-animation: rotatePlaceholder 4.25s ease-in;
+    animation: rotatePlaceholder 4.25s ease-in;
+  }
+  
+  .sa-icon.sa-success {
+    border-color: transparent\9;
+  }
+  .sa-icon.sa-success .sa-line.sa-tip {
+    -ms-transform: rotate(45deg) \9;
+  }
+  .sa-icon.sa-success .sa-line.sa-long {
+    -ms-transform: rotate(-45deg) \9;
+  }
+  
+  .animateSuccessTip {
+    -webkit-animation: animateSuccessTip 0.75s;
+    animation: animateSuccessTip 0.75s;
+  }
+  
+  .animateSuccessLong {
+    -webkit-animation: animateSuccessLong 0.75s;
+    animation: animateSuccessLong 0.75s;
+  }
+  
+  @-webkit-keyframes animateSuccessLong {
+    0% {
+      width: 0;
+      right: 46px;
+      top: 54px;
+    }
+    65% {
+      width: 0;
+      right: 46px;
+      top: 54px;
+    }
+    84% {
+      width: 55px;
+      right: 0px;
+      top: 35px;
+    }
+    100% {
+      width: 47px;
+      right: 8px;
+      top: 38px;
+    }
+  }
+  @-webkit-keyframes animateSuccessTip {
+    0% {
+      width: 0;
+      left: 1px;
+      top: 19px;
+    }
+    54% {
+      width: 0;
+      left: 1px;
+      top: 19px;
+    }
+    70% {
+      width: 50px;
+      left: -8px;
+      top: 37px;
+    }
+    84% {
+      width: 17px;
+      left: 21px;
+      top: 48px;
+    }
+    100% {
+      width: 25px;
+      left: 14px;
+      top: 45px;
+    }
+  }
+  @keyframes animateSuccessTip {
+    0% {
+      width: 0;
+      left: 1px;
+      top: 19px;
+    }
+    54% {
+      width: 0;
+      left: 1px;
+      top: 19px;
+    }
+    70% {
+      width: 50px;
+      left: -8px;
+      top: 37px;
+    }
+    84% {
+      width: 17px;
+      left: 21px;
+      top: 48px;
+    }
+    100% {
+      width: 25px;
+      left: 14px;
+      top: 45px;
+    }
+  }
+  
+  @keyframes animateSuccessLong {
+    0% {
+      width: 0;
+      right: 46px;
+      top: 54px;
+    }
+    65% {
+      width: 0;
+      right: 46px;
+      top: 54px;
+    }
+    84% {
+      width: 55px;
+      right: 0px;
+      top: 35px;
+    }
+    100% {
+      width: 47px;
+      right: 8px;
+      top: 38px;
+    }
+  }
 
-.logo a {
+  .sa-icon{
+      margin-top: 100px;
+  }
+  
+  .sa-icon.sa-success .sa-line {
+    height: 5px;
+    background-color: #00d1b2;
+    display: block;
+    border-radius: 2px;
+    position: absolute;
+    z-index: 2;
+  }
+  
+  .sa-icon.sa-success .sa-line.sa-tip {
+    width: 25px;
+    left: 14px;
+    top: 46px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  .sa-icon.sa-success .sa-line.sa-long {
+    width: 47px;
+    right: 8px;
+    top: 38px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  
+  @-webkit-keyframes rotatePlaceholder {
+    0% {
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+    }
+    5% {
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+    }
+    12% {
+      transform: rotate(-405deg);
+      -webkit-transform: rotate(-405deg);
+    }
+    100% {
+      transform: rotate(-405deg);
+      -webkit-transform: rotate(-405deg);
+    }
+  }
+  @keyframes rotatePlaceholder {
+    0% {
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+    }
+    5% {
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+    }
+    12% {
+      transform: rotate(-405deg);
+      -webkit-transform: rotate(-405deg);
+    }
+    100% {
+      transform: rotate(-405deg);
+      -webkit-transform: rotate(-405deg);
+    }
+  }
 
-    font-size: 25px;
+  
+  
+
+
+  p::before {
+     
+    content: 'We\'ll write you as soon as courses are online.';
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+    animation: fadein 4s;
+    -moz-animation: fadein 4s; /* Firefox */
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+    -o-animation: fadein 4s; /* Opera */
+
+  }
+ 
+
+    @keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+    }       
+    @-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+    }
+    @-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+    a::before {
+     
+        content: 'Thanks for signin up, remember to check your email to confirm your registration.';
+         margin-top: 25px;
+        font-size: 21px;
+        text-align: center;
+        animation: fadein 4s;
+        -moz-animation: fadein 4s; /* Firefox */
+        -webkit-animation: fadein 4s; /* Safari and Chrome */
+        -o-animation: fadein 4s; /* Opera */
     
-}
-
-.tools {
+      }
+     
     
-    opacity: 0.71;
-    background-color: #c4fde7;
-       
-}
-
-.tools img {
-    filter: brightness(20%);
-}
-
-#craftainvision .vision {
-    padding-top: 100px;
-    margin-top: 100px;
-
-}
-
-.tools h2 {
-
-    padding-top: 40px;
-    color: #000;
-   
-}
-
-.corsi{
-    margin-top: 30px;
-    padding-bottom: 20px;
-}
+        @keyframes fadein {
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+        }       
+        @-moz-keyframes fadein { /* Firefox */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+        }
+        @-webkit-keyframes fadein { /* Safari and Chrome */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+        }
 
 
 
-.card {
-    border-radius: 11px;
-    min-height: 300px;
-    background: linear-gradient(160deg,#02ccba,#aa7ecd);
-
-}
-
-.card h3 {
-    margin-top:  30px;
-    
-}
-
-#email {
-    background: linear-gradient(160deg,#02ccba,#aa7ecd);
-}
-
-
-._form-label{
-    margin-top: 50px;
-    color: #000;
-    
-}
-
-._field-wrapper{
-    border-color:  1px solid #000;
-}
-
-.btn{
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.formemail{
-    color: #000;
-    border: 1px solid #979797;
-    border-radius: 21px;
-
-}  
-
-._submit {
-    padding: 10px 10px;
-}
+ 
