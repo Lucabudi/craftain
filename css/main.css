@@ -2,6 +2,7 @@
 body{
     font-family: 'Inconsolata', monospace;
     background:#fff;
+    color: #101010;
 }   
 
 section{
@@ -68,6 +69,7 @@ section{
 
 #craftainvision h3 {
     text-align: left;
+    font-size: 1.5em;
 }
 
 /* Descrizione craftain*/
@@ -136,14 +138,14 @@ section{
     background-color: #edededab;
     box-sizing: border-box;
     color: #00d1b2;
-    padding-bottom: 50px;
-
+    padding-bottom: 6em;
+    margin-bottom: 0;
 }
 
-#email p{
+#email p {
     font-size: 0.7em;
     margin: 30px 10px; 
-
+    color: #101010;
 }
 
 
@@ -174,10 +176,14 @@ section{
 
 }  
 
-#email ._form-label{
-    margin-top: 50px;
-    color: #00d1b2;
+#email h4 {
+    padding-top: 2em;
+    color: #6772e5;
     font-size: 1.6em;
+}
+
+#email p {
+    font-size: 1.1em;
 }
 
 #craftainvision {
@@ -194,6 +200,20 @@ section{
     padding: 1.5em;
 }
 
+footer {
+    background-color: #edededab;
+    padding: 2em;
+    border-top: 1px solid #cecece;
+    color: #454545;
+}
+
+footer img {
+    height: 40px;
+}
+
+footer img:hover {
+    transform: translate(0px, -1px);
+}
 
 @media only screen  and (min-width : 1824px) {  
 
