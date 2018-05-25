@@ -113,7 +113,8 @@ section{
 }
 
 .card p {
-    font-size: 1.2em; 
+    font-size: 1.2em;
+    
 }
 
 .card
@@ -196,18 +197,15 @@ section{
 
 @media only screen  and (min-width : 1824px) {  
 
-    .card{
-        min-height: 700px;
+    .card p {
+        margin-top: 8em;
         
 
     }
 
-  
-    ._form-label{
-        margin-top: 200px;      
-        font-size: 2em;
-    }
 
+
+  
    
 }  
 
