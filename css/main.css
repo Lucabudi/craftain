@@ -234,14 +234,14 @@ footer img:hover {
         
 
     }
-
-
-
-  
    
 }  
 
 @media (max-width: 800.98px) { 
+
+    body {
+        margin-bottom: 250px;
+    }
     
     #cardtools {
         padding-left: 0;
@@ -288,10 +288,9 @@ footer img:hover {
     }
 
    
-
-
-
-
+    footer {
+        height: 250px;
+    }
    
 }
 
