@@ -1,6 +1,7 @@
 html {
   position: relative;
   min-height: 100%;
+  overflow-x:hidden; 
 }  
 
 
@@ -9,6 +10,7 @@ body{
     background:#fff;
     color: #101010;
     margin-bottom: 150px;
+    overflow-x:hidden; 
 }   
 
 section{
@@ -252,11 +254,6 @@ footer img:hover {
     #cardtools h2 {
         padding: 0px 10px;
         color: #6772e5;
-    }
-
-    .col-md-10 {
-        padding-left: 0px;
-        padding-right: 0px;
     }
 
 
