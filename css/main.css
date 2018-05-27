@@ -230,7 +230,12 @@ footer img:hover {
 }
 
 footer a {
-    color: 101010;
+    color: #101010;
+}
+
+footer a:hover {
+    color: #6772e5;
+   text-decoration: none;
 }
 
 @media only screen  and (min-width : 1824px) {  
