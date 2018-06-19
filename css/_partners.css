@@ -1,0 +1,225 @@
+body{/* Rectangle Copy: */
+/* Rectangle: */
+background-color: #fff;
+}
+
+
+section{
+    
+    padding-bottom: 30px;
+}
+
+
+    #formemail .discover {
+        animation-delay: 2s;
+    }
+
+
+
+    #titlepartner h1 {
+        padding: 40px 0;
+        color: #444444;
+        font-size: 30px;
+        
+    }
+
+    
+    #partners .benefit {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #partners  p{ 
+    color: #666666;
+    font-size: 0.8em;
+
+    }
+
+    #partners h1{
+        /* Be partner Copy: */
+        
+        font-size: 20px;
+        color: #05D9B5;
+        letter-spacing: 0.96px;
+        font-weight: bold;
+        
+    }
+
+    #partners .title p {
+        /* Your technlogy: */
+        
+        font-size: 10px;
+        color: #fff;
+        margin-top: 30px;
+        text-align: center;
+    }
+    
+    #partners img {
+        margin-top: 20px;
+    }
+
+    #partners img:hover {
+        transform: translate(0px, -1px);
+    }
+
+
+
+
+
+    #titlecraftain h1 {
+        padding: 40px 0;
+        color:  #444444;
+        font-size: 30px;
+    }
+    
+
+    #craftain .benefit {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #craftain  p{ 
+    color: #666666;
+    font-size: 0.8em;
+
+    }
+
+    #craftain h1{
+        /* Be partner Copy: */
+        
+        font-size: 20px;
+        color: #6772e5;;
+        letter-spacing: 0.96px;
+        font-weight: bold;
+        
+    }
+
+    #craftain .title p {
+        /* Your technlogy: */
+        
+        font-size: 10px;
+        color: #fff;
+        margin-top: 30px;
+        text-align: center;
+        
+    }
+    
+    #craftain img {
+        margin-top: 20px;
+    }
+
+
+    #button .btn-primary {
+
+        width: 400px;
+        padding: 5px;
+        margin-bottom: 80px;
+        font-size: 25px;
+
+    }
+
+    .btn-outline-primary {
+        color: #fff;
+        width: 100%;
+        border: 1px solid #05D9B5;
+        box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.4);
+        cursor: pointer;
+        transition: all ease-in-out 300ms;
+        text-decoration: none;
+        
+    }
+    
+    .btn-outline-primary:hover {
+        background-color:#24c4ac
+        ;
+        box-shadow: 0px 37px 20px -15px rgba(0,0,0,0.2);
+        transform: translate(0px, -1px);
+    } 
+
+    .btn-outline-primary:hover {
+        background-color:#a6e0d8;
+        box-shadow: 0px 37px 20px -15px rgba(0,0,0,0.2);
+        transform: translate(0px, -1px);
+    } 
+  
+
+  #ourpartners {
+    padding-top: 10px;
+    margin-bottom: 400px;
+    margin-top: 30px;
+    background: #6441A5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2a0845, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+  }
+
+  #ourpartners h1 {
+      font-size: 25px;
+      margin-bottom: 30px;
+  }
+
+
+  @media (max-width: 800.98px) { 
+    
+
+    .btn-primary {
+        margin-bottom: 10px;
+    }
+
+    #titlepartner h1 {
+        padding: 10px 0;
+        color: #444444;
+        font-size: 30px;
+        
+    }
+    
+    
+   #partners  p{ 
+    color: #666666;
+    font-size: 1em;
+    padding: 0 30px;
+
+
+    }
+
+    #partners h1{
+
+        
+        font-size: 20px;
+        color: #05D9B5;
+        letter-spacing: 0.96px;
+        font-weight: bold;
+        text-align: center;
+        
+    }
+
+    #craftain  p{ 
+        color: #666666;
+        font-size: 1em;
+        padding: 0 30px;
+    
+    
+    }
+    
+    #craftain h1{
+    
+            
+            font-size: 20px;
+            color: #6772e5;
+            letter-spacing: 0.96px;
+            font-weight: bold;
+            text-align: center;
+            
+    }
+
+    #titlecraftain h1 {
+        padding: 10px 0;
+        color:  #444444;
+        font-size: 30px;
+    }
+   
+}
+
+
+
+  
